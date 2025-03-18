@@ -1,0 +1,37 @@
+{
+    "1": {
+        "item_id": "1",
+        "name": "Bacon",
+        "quantity": 5,
+        "price": 12.0,
+        "sku": "3904505"
+    },
+    "2": {
+        "item_id": "2",
+        "name": "Chicken Breast ",
+        "quantity": 104,
+        "price": 15.45,
+        "sku": "129456"
+    },
+    "3": {
+        "item_id": "3",
+        "name": "Frozen Pizza",
+        "quantity": 45,
+        "price": 15.43,
+        "sku": "o3u5iu"
+    },
+    "4": {
+        "item_id": "4",
+        "name": "Celery",
+        "quantity": 534,
+        "price": 12.0,
+        "sku": "9348030"
+    },
+    "22": {
+        "item_id": "22",
+        "name": "Bacon Smoked",
+        "quantity": 34,
+        "price": 12.0,
+        "sku": "r343312"
+    }
+}

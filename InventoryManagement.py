@@ -14,13 +14,15 @@ Features used (5 of the requested requirements):
 
 import json
 import os
+import tkinter as tk 
+from tkinter import messagebox, simpledialog
 
 # Define constants
 MAX_ITEMS = 1000
 MIN_QUANTITY = 0
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "010101"
-FILE_NAME = "/Users/AryanRanade/Desktop/p1/inventory_data.json"  
+FILE_NAME = "inventory_data.json"  
 
 # Define Item class
 class InventoryItem:
@@ -64,12 +66,13 @@ class InventoryItem:
     
     # Method to display item details
     def display_item(self):
+        print("--------------------------")
         print(f"Item ID: {self.item_id}")
         print(f"Name: {self.name}")
         print(f"Quantity: {self.quantity}")
         print(f"Price: {self.price}")
         print(f"SKU: {self.sku}")
-        print("--------------------------")
+
 
     # For JSON serialization
     def to_dict(self):
@@ -349,3 +352,8 @@ class InventoryManagementSystem:
 if __name__ == "__main__":
     system = InventoryManagementSystem()
     system.run()
+
+
+#We need to create a visual interface now!!
+
+
