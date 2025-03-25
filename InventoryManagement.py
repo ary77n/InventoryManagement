@@ -1,9 +1,5 @@
 """
-Inventory Management System in Python
-
-This program implements an inventory management system with classes for InventoryItem, 
-Inventory, and AuthenticationSystem following the provided pseudocode.
-
+Inventory Management System in Python 
 Features used (5 of the requested requirements):
 1. If-elif-else statements
 2. While Loop statements
