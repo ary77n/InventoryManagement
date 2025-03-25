@@ -342,7 +342,7 @@ class InventoryManagementSystem:
     
     def generate_alert_menu(self):
         try:
-            threshold = int(input("Enter threshold quantity for alert: "))
+            threshold = 15
             self.inventory.generate_stock_alert(threshold)
         except ValueError:
             print("Invalid input. Threshold must be an integer.")
