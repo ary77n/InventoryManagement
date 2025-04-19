@@ -1,6 +1,4 @@
 """
-Inventory Management System in Python (Functions Only)
-Features used (5 of the requested requirements):
 1. If-elif-else statements
 2. While Loop statements
 3. Dictionary data structures
