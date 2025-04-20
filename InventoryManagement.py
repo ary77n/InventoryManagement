@@ -13,7 +13,7 @@
 
 # for interaction. 
 
-# Challenges:   Designing the visual interface with Figma. 
+# Challenges:   Designing the visual interface with Figma and tkinter. 
 
 # Time Spent:    Estimated total 25+ hours (team effort) 
 
