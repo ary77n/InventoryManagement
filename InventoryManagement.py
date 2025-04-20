@@ -287,6 +287,29 @@ def display_main_menu():
         except ValueError:
             print("Please enter a number.")
 
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Inventory Management System")
+root.geometry("424x566")
+root.configure(bg="#E5EDF5")
+
+# Title
+tk.Label(root, text="Inventory Management System", font=("Poppins", 16, "bold"), bg="#F3F3F3").pack(pady=20)
+
+# Username
+tk.Label(root, text="Username:", font=("Poppins", 12), bg="#F3F3F3").pack()
+tk.Entry(root, font=("Poppins", 12)).pack(pady=5)
+
+# Password
+tk.Label(root, text="Password:", font=("Poppins", 12), bg="#F3F3F3").pack()
+tk.Entry(root, font=("Poppins", 12), show="*").pack(pady=5)
+
+# Login button
+tk.Button(root, text="Login", font=("Poppins", 12), bg="#000000", fg="black", width=20).pack(pady=20)
+
+root.mainloop()
+
 # Main function
 def main():
     # Display welcome message
