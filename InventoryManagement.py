@@ -1,9 +1,41 @@
 """
-1. If-elif-else statements
-2. While Loop statements
-3. Dictionary data structures
-4. Boolean statements
-5. File Read/Write operations
+# Program: Inventory Management System 
+
+# Written by: Noemi Abreu, Aryan Ranade 
+
+# Date: [April 22, 2025] 
+
+# Description: This program helps users (business owners or warehouse managers) 
+
+# manage inventory items by adding, removing, updating, and tracking 
+
+# products. It includes authentication, data persistence, and a GUI 
+
+# for interaction. 
+
+# Challenges:   Designing the visual interface with Figma. 
+
+# Time Spent:    Estimated total 25+ hours (team effort) 
+
+# Features Used: 
+
+# 1. If-elif-else statements 
+
+# 2. While loops 
+
+# 3. Boolean logic 
+
+# 4. Dictionaries 
+
+# 5. File read/write operations (JSON) 
+
+# Example Inputs and Expected Outputs: 
+
+# User logs in with admin / 010101 → "Login Successful" 
+
+# Adds item with ID 1001, quantity 5, price $10 → "Item added successfully!" 
+
+# Tries removing nonexistent item → "Item not found!" 
 """
 
 import json
