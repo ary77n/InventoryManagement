@@ -3,7 +3,7 @@
 
 # Written by: Noemi Abreu, Aryan Ranade 
 
-# Date: [April 22, 2025] 
+# Date: 04/22/2025 
 
 # Description: This program helps users (business owners or warehouse managers) 
 
